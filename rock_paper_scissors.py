@@ -21,11 +21,11 @@ def rock_paper_scissors():
         if player_choice == comp_choice:
             print('A draw')
         elif (player_choice, comp_choice) in win_combinations:
-            print('You win')
             user_count += 1
+            print('You win')
         else:
-            print('Computer wins!')
             comp_count += 1
+            print('Computer wins!')
 
         should_continue = input('Want to proceed? [y/n]').lower()
         if should_continue == 'y':

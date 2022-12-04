@@ -3,6 +3,7 @@ from rock_paper_scissors import rock_paper_scissors
 
 
 def main():
+
     print("Hello! Welcome to entertainment chat-bot")
     while True:
         user_choice = input('I have 2 games for you! Would like to play?[y/n] ')
